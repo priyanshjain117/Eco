@@ -1,0 +1,440 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}    
+html,body{
+    height: 100%;
+    width: 100%
+}
+.farmer-community
+{
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.header 
+{
+    background-color: #98d0bf;
+    position: sticky;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    width: 298px;
+    max-width: 100%;
+}
+.nav-menu 
+{
+    display: flex;
+    gap: 20px;
+}
+.nav-item 
+{
+    font-family: 'Julius Sans One', sans-serif;
+    border-radius: 15px 15px 0 0;
+    background-color: #c9e7de;
+    padding: 25px 30px;
+    box-shadow: 0 10px 8px 0 #888888;
+}
+.nav-item:hover{
+    background-color: #016547;
+    color:rgb(164, 236, 212);
+    text-decoration: none; 
+  }
+.search-icon 
+{
+    width: 76px;
+    max-width: 100%;
+}
+.dropdown-menu{
+    background-image: url(/images/mainPage/cloud_bg.png);
+}
+.welcome-section
+{ 
+    background-image: url(/images/mainPage/cloud_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #50e3c2;
+    /* position: relative; */
+    /* padding: 40px 0; */
+}
+.welcome-content
+{   
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.welcome-text
+{
+    background-color: rgba(121, 205, 243, 0.62);
+    border-radius: 30px;
+    padding: 40px;
+    max-width: 514px;
+}
+.welcome-title
+{
+    
+    color: #335408;
+    text-align: center;
+    font: 53px "Lilita One", sans-serif;
+}
+.farmer-image
+{
+    width: 454px;
+    max-width: 100%;
+}
+.cloud-images
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.cloud-image 
+{
+    width: 100%;
+    max-width: 458px;
+}
+.crop-analysis
+{
+    background-color: #d8e9e1;
+    padding: 40px 5%;
+    display: flex;
+    align-items: center;
+}
+.plant-hand-bg 
+{
+    background-color: #bde5e9;
+    border-radius: 50%;
+    width: 633px;
+    height: 545px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+.plant-hand-image
+{
+    width: 100%;
+    max-width: 600px;
+}
+
+.crop-analysis-title1 , .crop-analysis-title2
+{   margin-left:100px;
+    color: #114116;
+    font: 120px Koulen, sans-serif;
+    font-weight:bolder;
+    line-height: 1.1;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+}
+
+.crop-analysis-subtitle
+{   margin-left: 200px;
+    color: #0f3f2c;
+    font: 15px "Julius Sans One", sans-serif;
+    margin: 20px 0;
+    font-weight: bolder;
+    justify-content: right;
+    text-align: right;
+
+}
+.find-out-btn
+{
+    box-shadow: 8px 8px 10px #888888;
+    border-radius: 37px;
+    background-color: #66d8b5;
+    color: #fff;
+    padding: 15px 46px;
+    font: 29px Koulen, sans-serif;
+    border: none;
+    margin-left: 450px;
+    cursor: pointer;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+}
+.reel-section
+{
+    background-color: #d8e9e1;
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reel-image-container
+{
+    background-color: #bde5e9;
+    border-radius: 50%;
+    width: 605px;
+    height: 605px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 70px; */
+}
+.drone-image
+{
+    width: 100%;
+    max-width: 648px;
+}
+.reel-text
+{
+    max-width: 593px;
+    text-align: center;
+}
+.reel-title
+{
+
+    color: #114116;
+    font: 108px Koulen, sans-serif;
+    font-weight:bolder;
+    line-height: 1.1;
+}
+.reel-subtitle 
+{
+    color: #0f3f2c;
+    font: 17px "Julius Sans One", sans-serif;
+    margin: 20px 0;
+    font-weight: bolder;
+}
+.play-icon
+{   box-shadow: 4px 5px 5px 2px #888888;
+    width: 86px;
+    margin: 20px auto;
+    border-radius: 20%;
+}
+
+
+.news-section
+{
+    background-color: #d8e9e1;
+    padding: 66px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-image
+{
+    width: 625px;
+    max-width: 100%;
+}
+
+.news-content
+{
+    max-width: 50%;
+}
+
+.news-title
+{
+     color: #052e09;
+    font: 110px Koulen, sans-serif;
+    line-height: 1.1;
+    font-weight: bolder;
+    text-align: center;
+}
+.news-subtitle
+{
+    color: #0f3f2c;
+    font: 17px "Julius Sans One", sans-serif;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bolder;
+}
+.more-info-btn
+{
+    border-radius: 38px;
+    background-color: #66d8b5;
+    color: #fff;
+    padding: 17px 42px;
+    font: 30px Koulen, sans-serif;
+    border: none;
+    cursor: pointer;
+    align-items: right;
+    margin-left: 235px;
+    box-shadow: 4px 5px 5px 2px #888888;
+}
+.optimize-section
+{
+    background-color: #d8e9e1;
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.optimize-content 
+{
+    max-width: 40%;
+}
+.optimize-title
+{
+    color: #052e09;
+    font: 90px Koulen, sans-serif;
+    line-height: 1.1;
+    font-weight: bolder;
+    text-align: center;
+}
+.optimize-subtitle
+{
+    color: #0f3f2c;
+    font: 17px "Julius Sans One", sans-serif;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bolder;
+}
+.resolve-btn
+{
+    margin-left: 150px;
+    border-radius: 38px;
+    background-color: #66d8b5;
+    color: #fff;
+    padding: 21px 49px;
+    font: 30px Koulen, sans-serif;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 5px 5px 2px #888888;
+}
+.optimize-image-container
+{
+
+    margin-left: 12%;
+    margin-bottom: 50px;
+   /* position: relative;*/
+    width: 60%;
+}
+.optimize-bg
+{
+    background-color: #bde5e9;
+    border-radius: 50%;
+    width: 492px;
+    height: 548px;
+    position: absolute;
+    left: 0;
+}
+.optimize-image
+{
+    width: 100%;
+    max-width: 577px;
+    position: relative;
+    z-index: 1;
+}
+.footer
+{
+    border-radius: 50px 50px 0 0;
+    background-color: #4bd3a9;
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.25);
+    padding: 60px;
+    text-align: center;
+}
+.footer-logo
+{
+    width: 526px;
+    max-width: 100%;
+}
+.visually-hidden
+{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+/*
+@media (max-width: 991px) 
+{
+    .header, .welcome-content, .crop-analysis, .reel-section, .news-section, .optimize-section 
+    {
+      flex-direction: column;
+    }
+    .nav-menu, .welcome-text, .crop-analysis-text, .reel-text, .news-content, .optimize-content
+     {
+      width: 100%;
+      max-width: 100%;
+    }
+    .welcome-title, .crop-analysis-title, .reel-title, .news-title, .optimize-title 
+    {
+      font-size: 40px;
+    }
+    .farmer-image, .plant-hand-bg, .reel-image-container, .news-image, .optimize-image-container 
+    {
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
+    }
+    .semi-circles 
+    {
+      display: none;
+    }
+    .footer {
+      padding: 40px 20px;
+    }
+}*/
+.nav-menu a{
+    text-decoration: none;
+    border-radius: 24px;
+    margin-right: 50px;
+    text-align: center;
+    color: #589b00;
+    font-weight: 900;
+    background-color:#c9e7de5e;
+}
+
+.footer{
+    border-top-left-radius: 40px;
+}
+.inner-foot{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    /* justify-content: space-evenly; */
+}
+.media{
+    padding: 15px;
+}
+.inner-foot .media {
+    height: 50px;
+    width: 50px;
+    color:#fff;
+    font-size:60px;
+}
+.extra{
+    background-image: url(/images/mainPage/cloud_bg.png);
+    background-size: cover;
+}
+.optimize-image-container img{
+    border-radius: 40%;
+}
+#news img{
+    border-radius: 40%;
+}
+.fa-brands
+{
+    color: #072519;
+}
+.welcome-title{
+   height: max-content;
+   font-size: 8vh  ;
+}
+.welcome-text{
+    height: 40vh;
+    width: 800vh;
+}
+.welcome-title img{
+    position: relative;
+    top: -20vh;
+    left: -35vh;
+}

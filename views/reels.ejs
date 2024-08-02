@@ -1,0 +1,43 @@
+<%- include("layout/mainPageHeader.ejs") %>
+</section>
+<!-- <link rel="stylesheet" href="/styles/reels.css"> -->
+ <style>
+  body{
+    background-color: #EAF4F2;
+  }
+ </style>
+<section id="search">
+  <div class="searchbar">
+      <input type="text" name="search" placeholder="Search...">
+      <span class="searchbar-icon"><i class="fas fa-search"></i></span>
+  </div>
+</section>
+
+<section id="container">
+  <div class="image-row">
+      <div> <iframe width="380" height="500" class="firstImg"
+              src="https://www.youtube.com/embed/dlHA7OZHO08?autoplay=1&loop=3" alt="reel"> </iframe></div>
+      <div><img
+              src="https://agrierp.com/blog/wp-content/uploads/2024/01/why-is-agriculture-important.webp"
+              alt="image" class="secondImg"></div>
+      <div><img
+              src="https://images.pexels.com/photos/7782149/pexels-photo-7782149.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="image" class="thirdImg"></div>
+  </div>
+</section>
+<section id="next">
+  <div class="left-column">
+      <div><img
+              src="https://media.licdn.com/dms/image/D4D12AQGC1QhfQTUJFw/article-cover_image-shrink_600_2000/0/1695572022937?e=2147483647&v=beta&t=hG3KkmLGNWq3tQQA9XjFW2eEhQvuhhn_WuoNLEZ3Cto"
+              alt="image" class="plantImg1"></div>
+      <div><img
+              src="https://images.squarespace-cdn.com/content/v1/59a706d4f5e2319b70240ef9/1598971164694-F75Y7VUAHC6TLFJXLCWF/veggies.jpg"
+              alt="image" class="plantImg2" id="vegetables"></div>
+  </div>
+  <div class="right-column">
+      <img
+          src="https://images.pexels.com/photos/7601056/pexels-photo-7601056.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="image" class="tractorImg">
+  </div>
+</section>
+<%- include("layout/mainPageFooter.ejs") %>

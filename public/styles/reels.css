@@ -1,0 +1,269 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.header {
+    background-color: #98d0bf;
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.logo, .search-icon {
+    max-width: auto;
+    height: auto; 
+}
+
+
+.nav-item {
+    font-family: 'Julius Sans One', sans-serif;
+    border-radius: 15px 15px 0 0;
+    background-color: #c9e7de;
+    padding: 20px 15px;
+    box-shadow: 0 5px 3px 0 #03340e;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    border-radius: 24px;
+    text-align: center;
+    color: #05633e;
+    background-color: #c9e7de5e;
+}
+
+
+.searchbar {
+    position: relative;
+    overflow: hidden;
+    background-color: #49ad85;
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 40%; 
+}
+
+.searchbar-icon {
+    margin-left: -40px;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(4, 81, 57);
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 9px;
+    border: none;
+    font-size: 18px;
+    background-color: #c9e7de;
+    text-align: left;
+    text-indent: 8px;
+    outline: none;
+    flex-grow: 1; 
+}
+
+#container {
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.image-row {
+    display: flex;
+}
+
+.firstImg {
+    width: 340px;
+    height: 500px;
+    margin-left: 40px;
+    border-radius: 10px 0 0 0;
+}
+
+.secondImg {
+    object-fit: cover;
+    width: 480px;
+    height: 500px;
+    padding-left: 30px;
+}
+
+.thirdImg {
+    padding-left: 30px;
+    margin-right: 50px;
+    /* padding-right: 60px; */
+    width: 400px;
+    height: 500px;
+    border-radius:  0px 10px 0px 0px;
+}
+
+#next {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.plantImg1 {
+    width: 625px;
+    height: 290px;
+    margin-top: 20px;
+}
+
+.plantImg2 {
+    width: 625px;
+    height: 320px;
+    margin-top: 20px;
+    border-radius: 0 0 0 10px ;
+}
+
+#vegetables {
+    width: 625px;
+    margin-top: 20px;
+    height: 330px;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.tractorImg {
+    width: 560px;
+    height: 680px;
+    padding-top:15px;
+    margin-right:20;
+    padding-left: 10px;
+    border-radius: 0 0  10px 0;
+}
+
+.footer {
+    border-radius: 50px 50px 0 0;
+    background-color: #4bd3a9;
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.25);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.inner-foot {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.media {
+    padding: 15px;
+}
+
+.inner-foot .media {
+    height: 50px;
+    width: 50px;
+    color: #f2fffb;
+    font-size: 30px; 
+}
+
+.extra {
+    background-image: url(cloud_bg.png);
+    background-size: cover;
+}
+
+.fa-brands {
+    color: #072519;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .nav-item {
+        padding: 15px 20px;
+    }
+    .logo, .search-icon {
+        max-width: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .nav-item {
+        padding: 10px 15px;
+    }
+    .logo, .search-icon {
+        max-width: 60px;
+    }
+    .image-row, #next {
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondImg, .thirdImg, .plantImg2, #vegetables, .tractorImg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 10px 0;
+    }
+    .right-column {
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nav-item {
+        padding: 8px 12px;
+    }
+    .logo, .search-icon {
+        max-width: 50px;
+    }
+    .searchbar {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 10px;
+    }
+    .searchbar-icon {
+        margin: 10px auto 0; 
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .nav-menu {
+        justify-content: center;
+        gap: 5px;
+    }
+    .logo, .search-icon {
+        max-width: 40px;
+    }
+    .nav-item {
+        padding: 6px 8px;
+        margin-right: 5px;
+    }
+}
