@@ -1,11 +1,19 @@
 {
-  "name": "hack4change",
+  "name": "H2S_ECOFASAL",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
+  "builds": [{
+      "src": "*.js",
+      "use": "@vercel/node"
+    }],
+  "routes": [{
+      "src": "/(.*)",
+      "dest": "/"    }],
   "scripts": {
-    "start": "NODE_ENV=production node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"    
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
